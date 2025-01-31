@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" /> 
+  <link rel="stylesheet" href="styles.css" />
+  <title>Fotografía de Moda</title>
+</head>
+<body>
+  <div class="background-image"></div>
+  <div class="container">
+    <section class="section__container">
+      <h1>Monique Wright</h1>
+      <h2>Fotografía de Moda</h2>
+    </section>
+    <section class="categories">
+      <!-- Tarjetas de categorías -->
+      <div id="wedding" class="category-card">
+        <h3>Bodas</h3>
+        <p>Capturamos los momentos más especiales de tu boda.</p>
+      </div>
+      <div id="family" class="category-card">
+        <h3>Familiares</h3>
+        <p>Fotografías que atesoran los recuerdos familiares.</p>
+      </div>
+      <div id="business" class="category-card">
+        <h3>Negocios</h3>
+        <p>Imágenes profesionales para tu marca o negocio.</p>
+      </div>
+      <div id="editorial" class="category-card">
+        <h3>Moda Editorial</h3>
+        <p>Fotografía para revistas y campañas de moda.</p>
+      </div>
+      <div id="portraits" class="category-card">
+        <h3>Retratos</h3>
+        <p>Retratos artísticos y personales.</p>
+      </div>
+      <div id="events" class="category-card">
+        <h3>Eventos</h3>
+        <p>Cobertura de eventos sociales y culturales.</p>
+      </div>
+      <div id="advertising" class="category-card">
+        <h3>Publicidad</h3>
+        <p>Fotografía para campañas publicitarias.</p>
+      </div>
+      <div id="beauty" class="category-card">
+        <h3>Belleza</h3>
+        <p>Fotografía de maquillaje, peinados y estilismo.</p>
+      </div>
+      <div id="sports" class="category-card">
+        <h3>Deportes</h3>
+        <p>Fotografía deportiva y de actividad física.</p>
+      </div>
+      <div id="nature" class="category-card">
+        <h3>Naturaleza</h3>
+        <p>Fotografía de moda en exteriores y paisajes.</p>
+      </div>
+    </section>
+    <footer>
+      <p>Realizado por Elizabeth Diaz Familia</p>
+      <div class="socials">
+        <a href="https://github.com/Lizzy0981" target="_blank"><i class="ri-github-fill"></i></a>
+        <a href="https://linkedin.com/in/eli-familia/" target="_blank"><i class="ri-linkedin-fill"></i></a>
+        <a href="https://twitter.com/Lizzyfamilia" target="_blank"><i class="ri-twitter-x-fill"></i></a>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Modal para la galería de imágenes -->
+  <div id="galleryModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2 id="modalTitle"></h2>
+      <div id="galleryImages" class="gallery-images"></div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
