@@ -2,6 +2,16 @@
 
 Un portafolio fotográfico moderno y elegante construido con React, TypeScript y Tailwind CSS.
 
+## Modo Claro
+
+![modo claro](https://github.com/user-attachments/assets/b269b0a0-cbc4-44fd-aea9-197c22ed4eb7)
+
+
+## Modo Oscuro
+
+![modo oscuro](https://github.com/user-attachments/assets/bdd472c9-0b4f-4c2e-b992-a444ee3b9911)
+
+
 ## 🌟 Características
 
 - Diseño moderno y responsivo
